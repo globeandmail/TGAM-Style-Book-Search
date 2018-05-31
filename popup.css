@@ -1,0 +1,35 @@
+body {
+  width: 200px;
+  margin: 6px;
+  background: #eee;
+  color: #111111;
+  font-family: "Pratt", "PrattRegular", Georgia, "Times New Roman", Times, serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility; }
+
+h2.home-titles {
+  margin-bottom: 8px;
+  font-family: "Pratt-Bold", "PrattBold", Georgia, "Times New Roman", Times, serif;
+  line-height: 1;
+  font-size: 14px; }
+
+p {
+  margin: 18px 0;
+  letter-spacing: 0.005rem; }
+
+.button-link {
+  background: #DA161F;
+  color: #F2F2F2;
+  padding: 10px;
+  font-family: "GMsanC-Regular", "GMSansC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0;
+  margin-top: 5px; }
+ 
+button[type="submit"] svg {
+    fill: #fff; }
+

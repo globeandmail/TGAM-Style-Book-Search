@@ -1,0 +1,35 @@
+{
+    "name": "TGAM Style Book Search",
+    "version": "1.0.6",
+    "description": "Search for selected text in Globe and Mail Style",
+    "icons": {
+      "16": "images/tgamstyle16.png",
+      "32": "images/tgamstyle32.png",
+      "48": "images/tgamstyle48.png",
+      "128": "images/tgamstyle128.png"
+    },
+    "permissions": ["contextMenus"],
+    "browser_action": {
+          "default_icon": {                    
+            "16": "images/tgamstyle16.png",    
+            "32": "images/tgamstyle32.png"     
+          },
+          "default_title": "TGAM Style Book Search",
+          "default_popup": "popup.html"
+        },
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "commands": {
+    	"execute_click_event": {
+        	"suggested_key": {
+            	"default": "Alt+Shift+F",
+            	"mac": "Alt+Shift+F"
+            },
+            "description": "Execute search",
+            "global": true
+          	}
+          },
+    "manifest_version": 2
+  }
